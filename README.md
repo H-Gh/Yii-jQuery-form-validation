@@ -9,7 +9,7 @@ This plugin runs custom validations on custom fileds which are not in Yii model.
   $form.yiiValidator('add', {
         model: "model",
         attribute: "model_attribute",
-        rules: ...
+        rules: // ...
     });
 ```
 
@@ -23,7 +23,7 @@ $form.yiiValidator('add', {
 });
 ```
 
-<h4>Rules<h4>
+<h2>Rules</h2>
 Rules can be a single object or array of objects.
 
 ```javascript
@@ -42,20 +42,21 @@ rules : [
 
 Each rule consists of two element :
 ```
-  rule, errorMessage
+  rule
+  errorMessage
 ```
 
 Rule can be selected from below list or be a function.
 ```
 required
-number,
-email,
+number
+email
 url
 ```
 
 ```javascript
 rule : function(value) {
-
+  //...
 }
 ```
 

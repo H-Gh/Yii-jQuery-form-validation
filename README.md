@@ -69,12 +69,13 @@ $form.yiiValidator('add', {
         attribute: "model_attribute_1",
         rules: [{
             rule: "required",
-            errorMessage: should fill"
+            errorMessage: "should fill"
         }]
     });
 ```
 
 ```javascript
+var $form = $('#form');
 $form.yiiValidator('add', {
         model: "model",
         attribute: "model_attribute_2",

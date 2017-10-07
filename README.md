@@ -7,7 +7,7 @@ This plugin runs custom validations on custom fileds which are not in Yii model.
 ```php
 <div class="form-group field-model-model_attribute_1">
   <?php
-    // the format of should be like this modelName-attributeName. eg : model is book, attribute of model is name => book-name
+    // the format of id name should be like this modelName-attributeName. eg : model is book, attribute of model is name => book-name
     echo Html::label("Label", "model-model_attribute_1"); ?>
     echo Html::textInput("Campaign[model_attribute_1]", null, [
       "class" => "form-control",

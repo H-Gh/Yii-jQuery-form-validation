@@ -2,9 +2,9 @@
 This plugin runs custom validations on custom fileds which are not in Yii model.
 
 <h2>Usage</h2>
-<h4>html</h4>
+<h4>php</h4>
 
-```html
+```php
 <div class="form-group field-model-model_attribute_1">
   <?= Html::label("Label", "model-model_attribute_1"); ?>
   <?= Html::textInput("Campaign[model_attribute_1]", null, ["class" => "form-control", "id" => "model-model_attribute_1"]); ?>

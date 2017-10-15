@@ -9,7 +9,7 @@ This plugin runs custom validations on custom fileds which are not in Yii model.
   <?php
     // the format of id name should be like this modelName-attributeName. eg : model is book, attribute of model is name => book-name
     echo Html::label("Label", "model-model_attribute_1"); ?>
-    echo Html::textInput("Campaign[model_attribute_1]", null, [
+    echo Html::textInput("Model[model_attribute_1]", null, [
       "class" => "form-control",
       "id" => "model-model_attribute_1"
     ]);

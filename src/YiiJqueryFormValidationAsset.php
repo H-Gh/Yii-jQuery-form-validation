@@ -12,7 +12,7 @@ namespace hgh\yiiJqueryFormValidation;
  */
 class YiiJqueryFormValidationAsset extends yii\web\AssetBundle
 {
-    public $sourcePath = '@vendor/hgh/yii2-jquery-validation/res';
+    public $sourcePath = '@vendor/hgh/yii-jquery-validation/src/res';
 
     public $js = [
         "js/yiiValidator.js"

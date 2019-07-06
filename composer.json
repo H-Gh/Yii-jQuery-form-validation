@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "hgh\\yii-jquery-form-validation\\": ""
+      "hgh\\yii-jquery-form-validation\\": "src/"
     }
   }
 }

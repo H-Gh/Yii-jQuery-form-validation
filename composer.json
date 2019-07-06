@@ -1,0 +1,19 @@
+{
+  "name": "hgh/yii-jquery-form-validation",
+  "version": "1.1.0",
+  "type": "library",
+  "description": "Using this package you can validate inputs out of Yii model",
+  "keywords": ["jQuery","JavaScript", "Yii2", "PHP"],
+  "homepage": "https://github.com/H-Gh/Yii-jQuery-form-validation",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hamed Ghasempour",
+      "email": "hamedghasempour@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "components/jquery": "*"
+  }
+}
